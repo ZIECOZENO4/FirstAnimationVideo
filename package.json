@@ -7,12 +7,13 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.221",
+    "@remotion/tailwind": "4.0.221",
     "@remotion/zod-types": "4.0.221",
+    "framer-motion": "^11.11.9",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "remotion": "4.0.221",
-    "zod": "3.22.3",
-    "@remotion/tailwind": "4.0.221"
+    "zod": "3.22.3"
   },
   "devDependencies": {
     "@remotion/eslint-config": "4.0.221",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render HelloWorld out/video.mp4",
+    "build": "remotion render FirstAnimation out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
